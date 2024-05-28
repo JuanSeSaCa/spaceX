@@ -1,102 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpaceX</title>
+    <title>SPACEX</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <script type="module" src="js/main.js" defer></script>
 </head>
-<body>
-    <header class="header">        
-        <div id="titleHeader" class="titleHeader">
-            <div class="load"></div>
-        </div>
-    </header>
-        <div class="systemContainer">
-                <li class="SystemLis">
-                    <ul class="itemSystem">
-                        <button class="buttonCheck"></button>
-                        <p3>ALL SYSTEMS CHECK</p3>
-                        <sub>Normal</sub>
-                    </ul>
-                    <ul class="itemSystem">
-                        <button class="buttonCheck"></button>
-                        <p3>RENDEZVOUS BURN SLOW</p3>
-                        <sub>Normal</sub>
-                    </ul>
-                    <ul class="itemSystem">
-                        <button class="buttonCheck"></button>
-                        <p3>PREPARE RENDEZVOUS BURN</p3>
-                        <sub>Normal</sub>
-                    </ul>
-                    <ul class="itemSystem">
-                        <button class="buttonCheck"></button>
-                        <p3>THERMAL SHIELD</p3>
-                        <sub>Applied</sub>
-                    </ul>
-                    <ul class="itemSystem">
-                        <button class="buttonCheck"></button>
-                        <p3>BURN GO/NO-GO</p3>
-                        <sub>Normal</sub>
-                    </ul>
-                    <ul class="itemSystem">
-                        <button class="buttonCheck"></button>
-                        <p3>POWER COMPLETION</p3>
-                        <sub>Awaiting</sub>
-                    </ul>
-                    <ul class="itemSystem">
-                        <button class="buttonCheck"></button>
-                        <p3>STATION DECK CHECK</p3>
-                        <sub>Normal</sub>
-                    </ul>
 
-                </li>
-                <div class="buttonsSystem">
-                    <button>SISTEMS</button>
-                    <button>CABIN</button>
-                </div>
-        </div>
+<body>
+    <header class="header">
+        <div id="header__title" class="header__title"></div>
+    </header>
     <main class="main">
-        <nav class="nav__description">
-            <div id="description__item" class="description__item">
-                        <div class="load"></div>
-                        <div class="load"></div>
-                        <div class="load"></div>
-                        <div class="load"></div>
-                        <div class="load"></div>
-                    
-                </div>
-                <div class="description__buttom">
-                    <a href="#">a</a>
-                    <a href="#">b</a>
-                </div>
-        </nav>
-                            <div>caja2</div>
-                        </div>
-                        <div class="section__img">Caja2</div>
-                        <div class="section__info__3">
-                            <div>
-                                <div class="item"></div>
-                                <div class="item"></div>
+        <aside id="main__aside__left" class="main__aside__left"></aside>
+        <section class="main__section">
+            <article id="section__information__1" class="section__information__1">
+                <div class="load"></div>
+            </article>
+            <article class="section__information__container">
+                <div class="section__information__2">
+                    <div>
+                        <div class="carousel__item">
+                            <div class="item__progress__bar">
+                                <div class="progress__value">
+                                    <strong>Title</strong>
+                                    <small>3</small>
+                                </div>
                             </div>
-                            <div>Caja2</div>
                         </div>
-                    </article>
-                    <footer class="footer">
-                        
-                    </footer>
-                </section>
-                
-            </div>
-            <div class="indicatorsContainer">
-                
-            </div>
-            
+                        <div class="carousel__item">
+                            <div class="item__progress__bar">
+                                <div class="progress__value">
+                                    <strong>Title</strong>
+                                    <small>3</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="table__1" class="table"></div>
+                </div>
+                <div id="section__image" class="section__image">
+                    <div class="load"></div>
+                </div>
+                <div class="section__information__3">
+                    <div>
+                        <div class="carousel__item">
+                            <div class="item__progress__bar">
+                                <div class="progress__value">
+                                    <strong>Title</strong>
+                                    <small>3</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel__item">
+                            <div class="item__progress__bar">
+                                <div class="progress__value">
+                                    <strong>Title</strong>
+                                    <small>3</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="table__2" class="table"></div>
+                </div>
+            </article>
         </section>
-             
-        </main>
-    </body>
-    </html>
+        <aside id="main__aside__right" class="main__aside__right">
+            <div class="load"></div>
+        </aside>
+    </main>
+    <footer class="footer">
+        <aside class="footer__aside__left">
+            <div class="left__button">
+                <a href="#">System</a>
+            </div>
+            <div class="left__button">
+                <a href="#">Cabin</a>
+            </div>
+        </aside>
+        <nav class="footer__nav">
+            <div class="footer__nav__1">
+                <a href=""><img src="storage/img/icons/rocket.svg" alt=""><small>Overview</small></a>
+            </div>
+            <div class="footer__nav__2">
+                <a href=""><i class='bx bx-body' style='color:#e72d2d'></i><small>Life</small></a>
+            </div>
+            <div class="footer__nav__3">
+                <a href=""><img src="storage/img/icons/comms.svg" alt=""><small>Comms</small></a>
+            </div>
+            <div class="footer__nav__4">
+                <a href=""><img src="storage/img/icons/prop.svg" alt=""><small>Prop</small></a>
+            </div>
+            <div class="footer__nav__5">
+                <a href=""><img src="storage/img/icons/mech.svg" alt=""><small>Mech</small></a>
+            </div>
+            <div class="footer__nav__6">
+                <a href=""><i class='bx bxs-battery-charging bx-rotate-270'
+                        style='color:#ffffff'></i><small>Power</small></a>
+            </div>
+            <div class="footer__nav__7">
+                <a href=""><i class='bx bxs-chip' style='color:#ffffff'></i><small>Avionics</small></a>
+            </div>
+            <div class="footer__nav__8">
+                <a href=""><i class='bx bx-current-location bx-rotate-270'
+                        style='color:#ffffff'></i><small>GNC</small></a>
+            </div>
+            <div class="footer__nav__9">
+                <a href=""><i class='bx bxs-brightness-half' style="color: #fff"></i><small>Thermal</small></a>
+            </div>
+        </nav>
+        <aside id="footer__aside__right" class="footer__aside__right">
+            <div class="load"></div>
+        </aside>
+    </footer>
+</body>
+
+</html>
