@@ -38,7 +38,7 @@ export const RocketEngineImage = async () => {
     let firstDiv = document.createElement("div");
     firstDiv.classList.add("img");
     let imgElement = document.createElement("img");
-    imgElement.src = "../../storage/img/img-cohete.png"; 
+    // imgElement.src = "../../storage/img/img-cohete.png"; 
     imgElement.alt = "";
     imgElement.style.width = "270px";
     firstDiv.appendChild(imgElement);

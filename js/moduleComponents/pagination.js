@@ -4,7 +4,7 @@ import {
 } from "../modules/rockets.js";
 import { 
     nameRockets 
-} from "./title.js";
+} from "./titles.js";
 import { 
     informationRockets,
     informationLaunchCostRocket,
@@ -17,7 +17,7 @@ import {
 } from "./inform.js";
 import { 
     imageRockets
-} from "./card.js";
+} from "./cards.js";
 import {
     tableInformationRockets,
     tableEngineInformation
